@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    font-size: 62.5%;
+    font-family: 'Questrial', sans-serif;
+
+}
+
+body {
+    background-color: #000;
+    color: #fafafa;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    display: flex;
+    font-size: 1.4rem;
+    width: 100%;
+    z-index: 3;
+}
+
+/* Logo */
+.navbar__logo {
+    width: 8rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2.5%;
+}
+/* Lista */
+.navbar__lista {
+    display: flex;
+    list-style: none;
+    padding: 0;    
+    align-items: center
+}
+/* Items */
+.navbar__items {
+    margin-left: 4rem;
+    width: max-content;
+}
+/* Links */
+.navbar__links {
+    color: #fafafa;
+    font-size: 2.4rem;
+    text-decoration: none;
+}
+
+/* ----- Seccion: Inicio ----- */
+.inicio {
+    background-color: #202020;
+    background-image: url(../assets/hojas.png);
+    background-size: cover;
+    height: -webkit-fill-available;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Grupo de texto */
+.grupoInicioTexto {
+    width: min-content;
+}
+    /* Titulo */
+    .grupoInicioTexto__titulo {
+        color: #fafafa;
+        font-size: 4.8rem;
+        margin: 0;
+        width: fit-content;
+        font-weight: 600;
+        letter-spacing: 0.225rem;
+    }
+
+    /* Subtitulo */
+    .grupoInicioTexto__subtitulo {
+        color: #4A6657;
+        font-size: 2.4rem;
+        margin: 0;
+    }
+
+/* Grupo de imagen */
+.grupoInicioImagen {
+    width: fit-content;
+}
+
+/* ----- Seccion: Sobre nosotros ----- */
+.sobreNosotros {
+    background-color: #202020;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    min-height: -webkit-fill-available;
+}
+
+    /* Tarjeta */
+    .grupoSobreNosotrosTarjeta {
+        background-color: #343C37;
+        min-height: 60%;
+        height: fit-content;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 2;
+    }
+
+    /* Contenedor */
+    .grupoSobreNosotrosTarjeta__contenedor {
+        width: 80%;
+    }
+
+    /* Titulo */
+    .grupoSobreNosotrosTarjeta__titulo {
+        border-bottom: 0.2rem solid #fafafa;
+        color: #fafafa;
+        padding-bottom: 1rem;
+        font-size: 4.8rem;
+        font-weight: 600;
+        letter-spacing: 0.225rem;
+        width: min-content;
+    }
+
+    /* Texto */
+    .grupoSobreNosotrosTarjeta__texto {
+        color: #fafafa;
+        font-size: 2.4rem;
+        font-weight: 200;
+    }
+
+    /* Imagen */
+    .grupoSobreNosotrosImagen__imagen {
+        height: 80%;
+        transform: translateX(-10%);
+        z-index: 1;
+    }
+
+/* ----- Seccion: ¿Qué hacemos? ----- */
+
+.queHacemos {
+    background-color: #202020;
+    background-image: url(../assets/hojas.svg);
+    height: fit-content;
+    min-height: -webkit-fill-available;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenedor */
+.queHacemos__contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Contenedor cuerpo */
+.cuerpo__contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Titulo */
+.queHacemos__titulo {
+    text-transform: uppercase;
+    color: #fafafa;
+    font-size: 4.8rem;
+    font-weight: 600;
+    letter-spacing: 0.225rem;
+    border-bottom: 0.2rem solid #4a6657;
+    padding-bottom: 2rem;
+    margin-bottom: 6rem;
+}
+
+/* Numero */
+.cuerpo__numero {
+    color: #fafafa;
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 4rem;
+    background: #343c37;
+    width: 4rem;
+    height: 4rem;
+}
+
+/* Cuerpo */
+.cuerpo__texto {
+    color: #fafafa;
+    font-size: 3rem;
+    width: 75%;
+    text-align: left;
+    margin: 1.4rem;
+}
+
+/* ----- Seccion: ¿Dónde estamos? ----- */
+
+.dondeEstamos {
+    background-color: #202020;
+    height: fit-content;
+    min-height: -webkit-fill-available;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 8rem;
+}
+
+/* Titulo */
+
+.dondeEstamos__titulo {
+    display: flex;
+}
+
+/* Imagen */
+.titulo__icono {
+    width: 10rem;
+    margin-right: 1rem;
+}
+
+/* Texto */
+
+.titulo__texto {
+    text-transform: uppercase;
+    color: #fafafa;
+    font-size: 4.8rem;
+    font-weight: 600;
+    width: min-content;
+}
+
+/* Cuerpo */
+
+.dondeEstamos__cuerpo {
+    width: 60%;
+}
+/* Texto inferior */
+.titulo__textoSuperior {
+    font-size: 3.6rem;
+}
+
+/* Texto inferior */
+.titulo__textoInferior {
+    color: #4A6657;
+    font-size: 6.4rem;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 4rem;
+}
+
+/* ----- Seccion: Contactanos ----- */
+
+.contactanos {
+    background-color: #202020;
+    height: fit-content;
+    min-height: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Tarjeta */
+.contactanos__tarjeta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/imagenLocal1.png);
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+    height: 75%;
+}
+
+/* Contenedores */
+.contenedor__whatsapp, .contenedor__instagram, .contenedor__email {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+}
+
+/* Iconos */
+.contactanos__iconos {
+    width: 8rem;
+    margin-right: 5rem;
+}
+
+/* Titulo */
+.contactanosTarjeta__titulo {
+    text-transform: uppercase;
+    color: #fafafa;
+    font-size: 4.8rem;
+    font-weight: 600;
+    width: min-content;
+    padding-bottom: 2rem;
+    border-bottom: 0.2rem solid #4a6657;
+}
+
+/* Titulo cuerpo */
+.cuerpo__titulo {
+    color: #fafafa;
+    font-size: 3.6rem;
+}
+
+/* Informacion cuerpo */
+.cuerpo__info {
+    color: #fafafa;
+    font-size: 3.6rem;
+    font-weight: 200;
+}
+
+/* ----- Diseño responsivo ----- */
+
+/* Dispositivo: mediano */
+
+@media only screen and (min-device-width: 764px) and (max-device-width: 1200px) {
+    /* Inicio */
+
+    /* Navbar */
+    .navbar__links {
+        font-size: 1.4rem;
+    }
+
+    /* ----- Seccion: Sobre nosotros ----- */
+    .sobreNosotros {
+        overflow: hidden;
+    }
+
+    /* Info */
+    .cuerpo__info {
+        font-size: 2.6rem;
+    }
+    /* Fin */
+}
+
+@media only screen and (min-device-width: 812px) and (max-device-width: 1200px) {
+    /* Tarjeta */
+    .grupoSobreNosotrosTarjeta {
+        transform: translateX(34%);
+        flex-shrink: 0;
+    }
+}
+
+/* Dispositivo: pequeño */
+
+/* Retratro */
+@media only screen 
+  and (min-device-width: 375px) and (max-device-width: 810px) {
+    /* Inicio */
+
+    /* Navbar */
+      .navbar {
+        justify-content: center;
+      }
+
+    /* Lista */
+    .navbar__lista {
+        display: none;
+    }
+
+    /*----- Seccion: Inicio -----*/
+    .inicio {
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    /* Texto */
+    .grupoInicioTexto {
+        transform: translateY(115%);
+    }
+
+    /* Imagen */
+    .grupoInicioImagen {
+        width: fit-content;
+        transform: translateY(42%);
+    }
+    /*----- Secion: Sobre Nosotros -----*/
+
+    /* Tarjeta */
+    .grupoSobreNosotrosTarjeta {
+        width: 80%;        
+        margin: 6rem 0;
+    }
+
+    /* Imagen */
+    .grupoSobreNosotrosImagen__imagen {
+        display: none;
+    }
+
+    /*----- Seccion: Que hacemos? -----*/
+    .queHacemos__titulo {
+        font-size: 3.8rem;
+    }
+    /* Texto */
+    .cuerpo__texto {
+        font-size: 2rem;
+    }
+    /* Numero */
+    .cuerpo__numero {
+        font-size: 1rem;
+        line-height: 3rem;
+        width: 3rem;
+        height: 3rem;
+    }
+
+    /* Seccion: ¿Dónde estamos? */
+    .dondeEstamos {
+        padding-top: 6rem;
+        padding-bottom: 8rem;
+    }
+    /* Cuerpo */
+    .dondeEstamos__cuerpo {
+        width: 80%;
+    }
+
+    /* Icono */
+    .titulo__icono {
+        width: 6rem;
+        margin-right: 0;
+    }
+
+    /* Titulo */
+    .titulo__texto {
+        font-size: 2.8rem;
+    }
+
+    /* Texto superior */
+    .titulo__textoSuperior {
+        font-size: 2.4rem;
+    }
+
+    /* Texto inferior */
+    .titulo__textoInferior {
+        font-size: 4.4rem;
+    }
+
+    /* -----Seccion: Contactanos ----- */
+    .contactanos {
+        padding: 8rem 0;
+    }
+    /* Titulo */
+    .contactanosTarjeta__titulo {
+        font-size: 2.8rem;
+    }
+
+    
+    /* Cuerpo titulo */
+    .cuerpo__titulo {
+        font-size: 1.6rem;
+    }
+    
+    /* Contenedores */
+    .contenedor__whatsapp, .contenedor__instagram, .contenedor__email {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /* Cuerpo iconos */
+    .contactanos__iconos {
+        width: 5rem;
+    }
+
+    /* Cuerpo informacion */
+    .cuerpo__info {
+        font-size: 1.6rem;
+    }
+
+    /* Fin */
+}
+
+/* Paisaje */
+@media only screen 
+and (min-device-width: 667px) and (max-device-width: 758px){
+    /* Inicio */
+
+    /* Navbar */
+    .navbar {
+        justify-content: start;
+    }
+    
+    /* Fin */
+}
