@@ -7,7 +7,7 @@ html {
     height: 100%;
     font-size: 62.5%;
     font-family: 'Questrial', sans-serif;
-
+    scroll-behavior: smooth;
 }
 
 body {
@@ -46,7 +46,16 @@ body {
 .navbar__items {
     margin-left: 4rem;
     width: max-content;
+    
 }
+
+.navbar__items:hover {
+    padding-bottom: 2rem;
+    border-bottom: 0.2rem solid #4A6657;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
 /* Links */
 .navbar__links {
     color: #fafafa;
@@ -90,6 +99,17 @@ body {
 .grupoInicioImagen {
     width: fit-content;
 }
+
+.grupoInicioImagen:hover {
+    transform: scale(1.075);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+    /* Imagen */
+    .grupoInicioImagen__imagen {
+        width: 38rem;
+    }
 
 /* ----- Seccion: Sobre nosotros ----- */
 .sobreNosotros {
@@ -274,7 +294,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(../assets/imagenLocal1.png);
+    background-image: url(../assets/imagenLocal3.png);
     background-size: cover;
     background-position: center;
     width: 80%;
