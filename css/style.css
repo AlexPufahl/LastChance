@@ -153,7 +153,6 @@ body {
     /* Imagen */
     .grupoSobreNosotrosImagen__imagen {
         height: 80%;
-        transform: translateX(-10%);
         z-index: 1;
     }
 
@@ -398,7 +397,11 @@ body {
         transform: translateY(42%);
     }
     /*----- Secion: Sobre Nosotros -----*/
-
+    .sobreNosotros {
+        background-image: url(../assets/imagenLocal2.png);
+        background-size: cover;
+        background-position: center;
+    }
     /* Tarjeta */
     .grupoSobreNosotrosTarjeta {
         width: 80%;        
