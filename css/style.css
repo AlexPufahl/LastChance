@@ -100,12 +100,6 @@ body {
     width: fit-content;
 }
 
-.grupoInicioImagen:hover {
-    transform: scale(1.075);
-    transition: 0.3s ease-in;
-    cursor: pointer;
-}
-
     /* Imagen */
     .grupoInicioImagen__imagen {
         width: 38rem;
