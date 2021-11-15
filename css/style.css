@@ -388,13 +388,15 @@ body {
 
     /* Texto */
     .grupoInicioTexto {
-        transform: translateY(115%);
+        transform: translateY(130%);
     }
 
     /* Imagen */
-    .grupoInicioImagen {
+    .grupoInicioImagen {        
         width: fit-content;
-        transform: translateY(42%);
+        position: relative;
+        bottom: -54%;
+        margin-top: 1rem;
     }
     /*----- Secion: Sobre Nosotros -----*/
     .sobreNosotros {
